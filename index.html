@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="control clearfix">
+        <div class="control-session">
+          <span class="control-title">session</span>
+          <i class="fa fa-minus-circle" id="session-minus"></i> &nbsp; <span id="session">25</span> &nbsp; <i class="fa fa-plus-circle" id="session-plus"></i>
+        </div>
+        <div class="control-break">
+          <span class="control-title">break</span>
+          <i class="fa fa-minus-circle" id="break-minus"></i> &nbsp; <span id="break">5</span> &nbsp; <i class="fa fa-plus-circle" id="break-plus"></i>
+        </div>
+      </div>
+      <div class="pomodoro session">
+        <div class="title">POMODORO CLOCK</div>
+        <div class="status">session</div>
+        <div class="timer">25:00</div>
+        <button class="button" id="switch"><i class="fa fa-exchange"></i></button>
+        <button class="button" id="reset"><i class="fa fa-refresh"></i></button>
+        <button class="button" id="toggle"><i class="fa fa-play"></i></button>
+      </div>
+    <script src="main.js"></script>
+</body>
+</html>
